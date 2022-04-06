@@ -1,0 +1,783 @@
+<?xml version="1.0"?>
+<MercuryGate specVersion="3.33">
+<Header><SenderID/>
+<ReceiverID>alljui</ReceiverID>
+<DocTypeID>FreightBill</DocTypeID>
+<DocCount>1</DocCount>
+<Date type="generation">04/01/2022 10:07</Date>
+<ExtractRequest><Date>04/01/2022 10:07</Date>
+<Reason>Dynamic Rule Set Invoice Extract</Reason>
+<User UserId="aileen.bridges@mercurygate.com" FirstName="Aileen" LastName="Bridges" internalId="9829292735"><ContactMethods><ContactMethod sequenceNum="1" type="Phone"></ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">aileen.bridges@mercurygate.com</ContactMethod>
+<ContactMethod sequenceNum="3" type="SMSEmail"></ContactMethod>
+<ContactMethod sequenceNum="4" type="Fax"></ContactMethod>
+</ContactMethods>
+</User>
+</ExtractRequest>
+</Header>
+<MasterBillOfLading internalId="13576063719" type="CustomerLoad" createBy="SchSOCustLoaderID" createDate="03/24/2022 11:52" updateBy="Schmieding Report Writer" updateDate="04/01/2022 10:01"><HandlingUnits>0.0</HandlingUnits>
+<ReferenceNumbers><ReferenceNumber type="Shipping Order" isPrimary="true" internalId="13576063726">SO126268</ReferenceNumber>
+<ReferenceNumber type="Customer Reference Number" isPrimary="false" internalId="13576063733">TST-1111</ReferenceNumber>
+<ReferenceNumber type="PO" isPrimary="false" internalId="13576063736">TST-1111</ReferenceNumber>
+<ReferenceNumber type="Shipment ID" isPrimary="false" internalId="13576064651">SN138028</ReferenceNumber>
+<ReferenceNumber type="Carrier Mode" isPrimary="false" internalId="13576074362">TL</ReferenceNumber>
+<ReferenceNumber type="CustInvCreate" isPrimary="false" internalId="13576136348">AddPOD</ReferenceNumber>
+<ReferenceNumber type="CustRateTotal" isPrimary="false" internalId="13576769562">Omit</ReferenceNumber>
+<ReferenceNumber type="Customer Acct Number" isPrimary="false" internalId="11830511811">alljui</ReferenceNumber>
+</ReferenceNumbers>
+<RelatedExecutionLoads><MasterBillOfLading internalId="13576063739"/>
+</RelatedExecutionLoads>
+<Comments><Comment type="SpecialInstructions">Memo ABI Managed   Anheuser-Bu</Comment>
+</Comments>
+<Services/>
+<EquipmentList></EquipmentList>
+<ScheduledEquipment></ScheduledEquipment>
+<Payment><Method>Prepaid</Method>
+<BillTo><Address type="Bill To" isResidential="false" isPrimary="false" internalId="13576064216"><Owner>ALL - JUICE (ALLJUI)</Owner>
+<CustomerAcctNum>alljui</CustomerAcctNum>
+<LocationCode>alljui</LocationCode>
+<Name>ALL - JUICE (ALLJUI)</Name>
+<AddrLine1>3101 FISH HATCHERY ROAD</AddrLine1>
+<AddrLine2/>
+<City>MADISON</City>
+<StateProvince>WI</StateProvince>
+<PostalCode>53713</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="43035213" latDirection="N" longDegrees="89396163" longDirection="W"></GeoLoc>
+<Contacts/>
+<Comments/>
+</Address>
+</BillTo>
+</Payment>
+<PODReceived>false</PODReceived>
+<ProofOfPickupReceived>false</ProofOfPickupReceived>
+<RelatedParties></RelatedParties>
+<Status>Delivered</Status>
+<AssignedTo/>
+<Owner>ALL - JUICE (ALLJUI)</Owner>
+<Audits><Audit timestamp="03/24/2022 11:54" user="" action="Extracted">T25582</Audit>
+</Audits>
+<Carriers></Carriers>
+<TerminalInfo type="Carrier"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<TerminalInfo type="Customer"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<Dates><Pickup><Date type="earliest">02/07/2022 00:00</Date>
+<Date type="latest">02/07/2022 00:00</Date>
+<Date type="planned">02/07/2022 00:00</Date>
+<Date type="actual">02/07/2022 01:00</Date>
+</Pickup>
+<Drop><Date type="earliest">02/07/2022 06:00</Date>
+<Date type="latest">02/07/2022 06:00</Date>
+<Date type="planned">02/07/2022 06:00</Date>
+<Date type="actual">02/07/2022 00:45</Date>
+</Drop>
+</Dates>
+<Plan><Events count="2"><Event type="Pickup" sequenceNum="1" internalId="13576064988"><CarrierActionCode/>
+<Dates><Date type="earliest">02/07/2022 00:00</Date>
+<Date type="latest">02/07/2022 00:00</Date>
+<Date type="planned">02/07/2022 00:00</Date>
+<Date type="actual">02/07/2022 01:00</Date>
+</Dates>
+<LateReason/>
+<AppointmentType/>
+<Address type="ShipTo/From" isResidential="false" isPrimary="false" internalId="13576064956"><LocationCode>COL</LocationCode>
+<Name>BRWY-- Columbus</Name>
+<AddrLine1>800 SCHROCK ROAD</AddrLine1>
+<AddrLine2/>
+<City>COLUMBUS</City>
+<StateProvince>OH</StateProvince>
+<PostalCode>43229</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="40081748" latDirection="N" longDegrees="82975326" longDirection="W"></GeoLoc>
+<Contacts><Contact type="AA" oid="13576064979"><Name>BRWY-- Columbus</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">614-888-6644</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments/>
+</Address>
+<Weight type="firstAvail" uom="lb">5909.0</Weight>
+<Shipments><ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true" internalId="13576063966">SN138028</ReferenceNumber>
+</ReferenceNumbers>
+</Shipments>
+<Activities></Activities>
+<Notes><Note type="Internal Note" priority="High" lastUpdate="3/24/22 11:54 AM" subject="#13576064988#test" internalId="13576065984"><Comment dateTime="3/24/22 11:54 AM" user=" fwatlington@woernerholdings.com"> TESTING - FIDEL</Comment>
+</Note>
+</Notes>
+</Event>
+<Event type="Drop" sequenceNum="2" internalId="13576065149"><CarrierActionCode/>
+<Dates><Date type="earliest">02/07/2022 06:00</Date>
+<Date type="latest">02/07/2022 06:00</Date>
+<Date type="planned">02/07/2022 06:00</Date>
+<Date type="actual">02/07/2022 00:45</Date>
+</Dates>
+<LateReason/>
+<AppointmentType/>
+<Address type="ShipTo/From" isResidential="false" isPrimary="false" internalId="13576065014"><LocationCode>33768</LocationCode>
+<Name>WSLR-- Fuhrer Eagle Sales And Servi</Name>
+<AddrLine1>3100 E CARSON ST</AddrLine1>
+<AddrLine2/>
+<City>PITTSBURGH</City>
+<StateProvince>PA</StateProvince>
+<PostalCode>15203</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="40424880" latDirection="N" longDegrees="79980957" longDirection="W"></GeoLoc>
+<Contacts><Contact type="AA" oid="13576065039"><Name>WSLR-- Fuhrer Eagle Sales And Serv</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">412-488-8844</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments/>
+</Address>
+<Weight type="firstAvail" uom="lb">5909.0</Weight>
+<Shipments><ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true" internalId="13576063966">SN138028</ReferenceNumber>
+</ReferenceNumbers>
+</Shipments>
+<Activities></Activities>
+</Event>
+</Events>
+</Plan>
+<Shipments><Shipment internalId="13576063962" type="ShipTo/From" createBy="SchSOCustLoaderID" createDate="03/24/2022 11:53" updateBy="daniellec@schmieding.com" updateDate="03/24/2022 14:58"><ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true" internalId="13576063966">SN138028</ReferenceNumber>
+<ReferenceNumber type="Customer Reference Number" isPrimary="false" internalId="13576064207">TST-1111</ReferenceNumber>
+<ReferenceNumber type="Shipping Order" isPrimary="false" internalId="13576064657">SO126268</ReferenceNumber>
+<ReferenceNumber type="Load ID" isPrimary="false" internalId="13576064878">LD125193</ReferenceNumber>
+<ReferenceNumber type="PRO" isPrimary="false" internalId="13576064911">LD125193</ReferenceNumber>
+<ReferenceNumber type="SCAC" isPrimary="false" internalId="13576077311">SHMC</ReferenceNumber>
+<ReferenceNumber type="Pickup Appointment" isPrimary="false" internalId="13576103361">3333</ReferenceNumber>
+<ReferenceNumber type="Customer Acct Number" isPrimary="false" internalId="11830511811">alljui</ReferenceNumber>
+</ReferenceNumbers>
+<Comments><Comment type="SpecialInstructions">Memo ABI Managed   Anheuser-Bu</Comment>
+</Comments>
+<Status>Delivered</Status>
+<AssignedTo/>
+<Owner>ALL - JUICE (ALLJUI)</Owner>
+<Audits><Audit timestamp="" user="fwatlington@woernerholdings.com" action="Tendered"/></Audits>
+<QuoteDetail><QuotedTo/>
+<QuotePhone/>
+<QuoteFax/>
+<QuoteEmail/>
+<QuoteDate/>
+<QuoteBy>SchSOCustLoaderID</QuoteBy>
+</QuoteDetail>
+<Carriers><Carrier type="Planned" internalId="11516342463"><CarrierId>(11516342463,3840,0)</CarrierId>
+<CarrierName>H.C. Schmieding Produce Company LLC</CarrierName>
+<SCAC>SHMC</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>191.23</Distance>
+<Id>C106</Id>
+<MCNumber/>
+<USDOT/>
+<InsuranceTypes><Insurance type="Cargo" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false" internalId="11516356718"><Owner>Schmieding Admin</Owner>
+<CustomerAcctNum>SchAdm</CustomerAcctNum>
+<LocationCode>L106</LocationCode>
+<Name>Schmideing Rating Default Carrier</Name>
+<AddrLine1>2330 North Thompson</AddrLine1>
+<AddrLine2/>
+<City>SPRINGDALE</City>
+<StateProvince>AR</StateProvince>
+<PostalCode>72764</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="36177053" latDirection="N" longDegrees="94145512" longDirection="W"></GeoLoc>
+<Contacts/>
+<Comments/>
+</Address>
+</Carrier>
+</Carriers>
+<TerminalInfo type="Carrier"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<TerminalInfo type="Customer"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<EquipmentList></EquipmentList>
+<ScheduledEquipment></ScheduledEquipment>
+<Quantities><Quantity type="package" uom="PLT">1.0</Quantity>
+</Quantities>
+<Weights><Weight type="actual" uom="lb">5909.0</Weight>
+<Weight type="planned" uom="lb">5909.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Dimensions><Dimension type="" dim="LinearFeet" uom="ft">0.0</Dimension>
+<Dimension type="" dim="RatingCount" uom="ct">0.0</Dimension>
+</Dimensions>
+<Dates><Pickup><Date type="earliest">02/07/2022 00:00</Date>
+<Date type="latest">02/07/2022 00:00</Date>
+<Date type="actual">02/07/2022 01:00</Date>
+</Pickup>
+<Drop><Date type="earliest">02/07/2022 06:00</Date>
+<Date type="latest">02/07/2022 06:00</Date>
+<Date type="actual">02/07/2022 00:45</Date>
+</Drop>
+</Dates>
+<Shipper><Address type="ShipTo/From" isResidential="false" isPrimary="false" internalId="13576063977"><LocationCode>COL</LocationCode>
+<Name>BRWY-- Columbus</Name>
+<AddrLine1>800 SCHROCK ROAD</AddrLine1>
+<AddrLine2/>
+<City>COLUMBUS</City>
+<StateProvince>OH</StateProvince>
+<PostalCode>43229</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="40081748" latDirection="N" longDegrees="82975326" longDirection="W"></GeoLoc>
+<Contacts><Contact type="AA" oid="13576064000"><Name>BRWY-- Columbus</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">614-888-6644</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments/>
+</Address>
+</Shipper>
+<Consignee><Address type="ShipTo/From" isResidential="false" isPrimary="false" internalId="13576064011"><LocationCode>33768</LocationCode>
+<Name>WSLR-- Fuhrer Eagle Sales And Servi</Name>
+<AddrLine1>3100 E CARSON ST</AddrLine1>
+<AddrLine2/>
+<City>PITTSBURGH</City>
+<StateProvince>PA</StateProvince>
+<PostalCode>15203</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="40424880" latDirection="N" longDegrees="79980957" longDirection="W"></GeoLoc>
+<Contacts><Contact type="AA" oid="13576064034"><Name>WSLR-- Fuhrer Eagle Sales And Serv</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">412-488-8844</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments/>
+</Address>
+</Consignee>
+<Services/>
+<Packages><Package type="" internalId="13576064180"><Dimensions><Dimension type="" dim="Width" uom=" ">0.0</Dimension>
+<Dimension type="" dim="Length" uom=" ">0.0</Dimension>
+<Dimension type="" dim="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Weights><Weight type="actual" uom="lb">5909.0</Weight>
+<Weight type="planned" uom="lb">5909.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<ItemGroups><ItemGroup internalId="13576064180" isShipUnit="false" isHandlingUnit="false" sequence=""><Description>BEER</Description>
+<ContainmentId>0</ContainmentId>
+<Weights><Weight type="actual" uom="lb">5909.0</Weight>
+<Weight type="planned" uom="lb">5909.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="actual" uom="PLT">1.0</Quantity>
+<Quantity type="planned" uom="PLT">1.0</Quantity>
+<Quantity type="ordered" uom="">0.0</Quantity>
+<Quantity type="delivered" uom="">0.0</Quantity>
+</Quantities>
+<Dimensions><Dimension type="actual" dim="Width" uom=" ">0.0</Dimension>
+<Dimension type="actual" dim="Length" uom=" ">0.0</Dimension>
+<Dimension type="actual" dim="Height" uom=" ">0.0</Dimension>
+<Dimension type="planned" dim="Width" uom=" ">0.0</Dimension>
+<Dimension type="planned" dim="Length" uom=" ">0.0</Dimension>
+<Dimension type="planned" dim="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<FreightClass type="delivered">0.0</FreightClass>
+<Stackability>0</Stackability>
+<TrackingNumber/>
+<DeliveryStatus/>
+<EquipmentRequired>false</EquipmentRequired>
+<ReferenceNumbers></ReferenceNumbers>
+<LineItem lineNumber="-1" internalId="13576064178"><Weights><Weight type="ordered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="ordered" uom="">0.0</Quantity>
+</Quantities>
+<ItemId/>
+<Description>BEER</Description>
+<FreightClass>0.0</FreightClass>
+<Commodity/>
+<NmfcCode/>
+<StccCode/>
+<CustomerPartNum/>
+<ManufacturerPartNum/>
+<DistributorPartNum/>
+<Cube uom="cbf">0</Cube>
+<TemperatureRange/>
+<HazardousMaterial>false</HazardousMaterial>
+<HazMatDetail internalId=""><ProperShippingName/>
+<HazMatID/>
+<PackageGroup/>
+<HazMatClass/>
+<ContactName/>
+<ContactPhone/>
+<HazMatPlacards>false</HazMatPlacards>
+<HazMatPlacardsDetails/>
+<HazMatEMSNumber/>
+<HazMatFlashPointTemp/>
+<Comments/>
+</HazMatDetail>
+<Dimensions><Dimension type="ordered" dim="Width" uom="in">0.0</Dimension>
+<Dimension type="ordered" dim="Length" uom="in">0.0</Dimension>
+<Dimension type="ordered" dim="Height" uom="in">0.0</Dimension>
+</Dimensions>
+<HarmonizedTariffCode/>
+<PortOfLading/>
+<CountryOfOrigin/>
+<CountryOfManufacture/>
+<CustomsValue/>
+<CustomsValueCurrency/>
+<InsuredValue/>
+<InsuredValueCurrency/>
+<AESExportCode/>
+<ScheduleBNumber/>
+<Domestic>D</Domestic>
+<ECCN/>
+<OriginationCountry/>
+<ManufacturingCountry/>
+<LicenseNumber/>
+<LicenseType/>
+<ReferenceNumbers></ReferenceNumbers>
+</LineItem>
+</ItemGroup>
+</ItemGroups>
+</Package>
+</Packages>
+<Payment><Method>Default</Method>
+<BillTo thirdParty="true"><Address type="Bill To" isResidential="false" isPrimary="false" internalId="13576064045"><Owner>ALL - JUICE (ALLJUI)</Owner>
+<CustomerAcctNum>alljui</CustomerAcctNum>
+<LocationCode>LOC11</LocationCode>
+<Name>Payables c/o Schmieding</Name>
+<AddrLine1>739 North Avenue</AddrLine1>
+<AddrLine2/>
+<City>Glendale Heights</City>
+<StateProvince>IL</StateProvince>
+<PostalCode>60139</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="41919616" latDirection="N" longDegrees="88077758" longDirection="W"></GeoLoc>
+<Contacts/>
+<Comments/>
+</Address>
+</BillTo>
+</Payment>
+<PODReceived>true</PODReceived>
+<RelatedParties></RelatedParties>
+<LateReason code="AF">Accident</LateReason>
+<OriginalSource/>
+<Activities></Activities>
+<Links></Links>
+</Shipment>
+</Shipments>
+<Weights><Weight type="actual" uom="lb">5909.0</Weight>
+<Weight type="planned" uom="lb">5909.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Dimensions><Dimension type="" dim="LinearFeet" uom="ft">0.0</Dimension>
+<Dimension type="" dim="RatingCount" uom="ct">0.0</Dimension>
+</Dimensions>
+<Quantities><Quantity type="actual">1.0</Quantity>
+<Quantity type="planned">1.0</Quantity>
+<Quantity type="ordered">0.0</Quantity>
+<Quantity type="delivered">0.0</Quantity>
+</Quantities>
+<PriceSheets><PriceSheet type="Cost" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="false" currencyCode="USD" createDate="03/24/2022 11:56" updateDate="03/24/2022 11:56" internalId="13576070232" exchangeDate="03/24/2022 00:00" createBy="fwatlington@woernerholdings.com" updateBy="fwatlington@woernerholdings.com"><AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>5.00</SubTotal>
+<Total>5.00</Total>
+<NormalizedTotal currencyCode="USD">5.00</NormalizedTotal>
+<ContractId/>
+<ContractName/>
+<Carrier internalId="11516342463"><CarrierId>(11516342463,3840,0)</CarrierId>
+<CarrierName>H.C. Schmieding Produce Company LLC</CarrierName>
+<SCAC>SHMC</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>191.23</Distance>
+<Id>C106</Id>
+<MCNumber/>
+<USDOT/>
+<InsuranceTypes><Insurance type="Cargo" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false" internalId="11516356718"><Owner>Schmieding Admin</Owner>
+<CustomerAcctNum>SchAdm</CustomerAcctNum>
+<LocationCode>L106</LocationCode>
+<Name>Schmideing Rating Default Carrier</Name>
+<AddrLine1>2330 North Thompson</AddrLine1>
+<AddrLine2/>
+<City>SPRINGDALE</City>
+<StateProvince>AR</StateProvince>
+<PostalCode>72764</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="36177053" latDirection="N" longDegrees="94145512" longDirection="W"></GeoLoc>
+<Contacts/>
+<Comments/>
+</Address>
+</Carrier>
+<ReasonCode/>
+<Status/>
+<LaneID>COLUMBUS,OH to PITTSBURGH,PA</LaneID>
+<Zone/>
+<RouteGuidePriority/>
+<CarrierLocationOid/>
+<OriginService/>
+<DestinationService/>
+<DimFactor>0.0</DimFactor>
+<DimWeight>0.0</DimWeight>
+<TotalWeight>5909.0</TotalWeight>
+<ChargeableWeight>5909.0</ChargeableWeight>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId="" internalId="13576070474"><Description>Total Line Haul</Description>
+<EdiCode/>
+<Amount>5.00</Amount>
+<Rate>5.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/>
+<Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<ReferenceNumbers></ReferenceNumbers>
+</Charge>
+</Charges>
+<Comments/>
+<ChargeableDistance>0.0</ChargeableDistance>
+<Mode>TL</Mode>
+<Sequence/>
+<Service>Standard</Service>
+<DriverId/>
+<TractorUnitId/>
+<TrailerUnitId/>
+<Distance>191.23</Distance>
+<ServiceDays>0.0</ServiceDays>
+</PriceSheet>
+<PriceSheet type="Invoice" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="false" currencyCode="USD" createDate="03/24/2022 12:17" updateDate="03/24/2022 23:52" internalId="13576136352" exchangeDate="03/24/2022 00:00" createBy="fwatlington@woernerholdings.com" updateBy="SchLoaderID" internalIdInvoice="13576136378"><Consolidation count="0"></Consolidation>
+<Weight type="pricesheet" uom="lb">5909.0</Weight>
+<Settlement><Queue>PAID</Queue>
+<Total>5.00</Total>
+<ReasonCode/>
+<InvoiceNumber>CIN47815</InvoiceNumber>
+<Date type="invoice">02/07/2022 00:00</Date>
+<Date type="complete">03/24/2022 00:00</Date>
+<PaymentMethod>Prepaid</PaymentMethod>
+<Comments><Comment>For Invoice CIN47815</Comment>
+</Comments>
+<Check><CheckNumber>002224</CheckNumber>
+<CheckAmount>5.00</CheckAmount>
+<CheckPayee>ALL - JUICE (ALLJUI)</CheckPayee>
+<Dates><Date type="checkdate">03/24/2022 00:00</Date>
+<Date type="checkdepositdate">03/24/2022 00:00</Date>
+</Dates>
+</Check>
+</Settlement>
+<RemitTo></RemitTo>
+<InvoiceBillTo><Address type="Remit To" isResidential="false" isPrimary="false" internalId="13576136354"><Owner>ALL - JUICE (ALLJUI)</Owner>
+<CustomerAcctNum>alljui</CustomerAcctNum>
+<LocationCode>LOC141</LocationCode>
+<Name>Recievables C/O H.C. Schmieding Produce Company, LLC</Name>
+<AddrLine1>Dept. 2865</AddrLine1>
+<AddrLine2/>
+<City>TULSA</City>
+<StateProvince>OK</StateProvince>
+<PostalCode>74182</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="36153540" latDirection="N" longDegrees="95994910" longDirection="W"></GeoLoc>
+<Contacts/>
+<Comments/>
+</Address>
+</InvoiceBillTo>
+<ReferenceNumbers></ReferenceNumbers>
+<ReferenceNumbers type="priceSheet"></ReferenceNumbers>
+<Audits><Audit timestamp="04/01/2022 10:07" user="" action="Extracted">AR7948</Audit>
+</Audits>
+<Activities><Activity type="Approve Invoice" createDate="03/24/2022 12:17" createBy="fwatlington@woernerholdings.com" updateDate="04/01/2022 10:07" updateBy="aileen.bridges@mercurygate.com" internalId="13576136380"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 12:17</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 12:20</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Ready to Extract" createDate="03/24/2022 12:20" createBy="fwatlington@woernerholdings.com" updateDate="04/01/2022 10:01" updateBy="Schmieding Report Writer" internalId="13576139512"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>04/01/2022 08:36</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>04/01/2022 10:01</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Credit and Rebill" createDate="03/24/2022 14:01" createBy="Schmieding Report Writer" updateDate="04/01/2022 10:01" updateBy="Schmieding Report Writer" internalId="13576443547"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo/>
+<PlannedDate>04/01/2022 10:01</PlannedDate>
+<PercentageComplete/>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Credit Invoice" createDate="03/24/2022 14:01" createBy="Schmieding Report Writer" updateDate="04/01/2022 10:01" updateBy="Schmieding Report Writer" internalId="13576443548"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo/>
+<PlannedDate>04/01/2022 10:01</PlannedDate>
+<PercentageComplete/>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+</Activities>
+<AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>5.00</SubTotal>
+<Total>5.00</Total>
+<NormalizedTotal currencyCode="USD">5.00</NormalizedTotal>
+<GLCode/>
+<ContractId/>
+<ContractName/>
+<Carrier internalId="11516342463"><CarrierId>(11516342463,3840,0)</CarrierId>
+<CarrierName>H.C. Schmieding Produce Company LLC</CarrierName>
+<SCAC>SHMC</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>191.23</Distance>
+<Id>C106</Id>
+<MCNumber/>
+<USDOT/>
+<InsuranceTypes><Insurance type="Cargo" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false" internalId="11516356718"><Owner>Schmieding Admin</Owner>
+<CustomerAcctNum>SchAdm</CustomerAcctNum>
+<LocationCode>L106</LocationCode>
+<Name>Schmideing Rating Default Carrier</Name>
+<AddrLine1>2330 North Thompson</AddrLine1>
+<AddrLine2/>
+<City>SPRINGDALE</City>
+<StateProvince>AR</StateProvince>
+<PostalCode>72764</PostalCode>
+<CountryCode>US</CountryCode>
+<GeoLoc latDegrees="36177053" latDirection="N" longDegrees="94145512" longDirection="W"></GeoLoc>
+<Contacts/>
+<Comments/>
+</Address>
+</Carrier>
+<ReasonCode/>
+<Status/>
+<LaneID>COLUMBUS,OH to PITTSBURGH,PA</LaneID>
+<Zone/>
+<RouteGuidePriority/>
+<CarrierLocationOid/>
+<OriginService/>
+<DestinationService/>
+<DimFactor>0.0</DimFactor>
+<DimWeight>0.0</DimWeight>
+<ChargeableWeight>5909.0</ChargeableWeight>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId="" internalId="13576136353"><Description>Total Line Haul Charge</Description>
+<EdiCode/>
+<Amount>5.00</Amount>
+<Rate>5.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/>
+<Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode/>
+<ReferenceNumbers></ReferenceNumbers>
+</Charge>
+</Charges>
+<Comments/>
+<Mode>TL</Mode>
+<Sequence/>
+<Service>Standard</Service>
+<DriverId/>
+<TractorUnitId/>
+<TrailerUnitId/>
+<TractorFactor>0.0</TractorFactor>
+<TrailerFactor>0.0</TrailerFactor>
+<Distance>191.23</Distance>
+<ServiceDays>0.0</ServiceDays>
+</PriceSheet>
+</PriceSheets>
+<Tenders></Tenders>
+<Activities><Activity type="Assign Customer Rate" createDate="03/24/2022 11:53" createBy="SchSOCustLoaderID" updateDate="03/24/2022 11:56" updateBy="fwatlington@woernerholdings.com" internalId="13576064725"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 13:53</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 11:56</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Create Execution Load" createDate="03/24/2022 11:53" createBy="SchSOCustLoaderID" updateDate="03/24/2022 12:17" updateBy="fwatlington@woernerholdings.com" internalId="13576064731"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 13:52</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 12:17</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Tender Response" createDate="03/24/2022 11:53" createBy="SchSOCustLoaderID" updateDate="03/24/2022 11:54" updateBy="fwatlington@woernerholdings.com" internalId="13576065247"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Accept</Status>
+<AssignedTo/>
+<PlannedDate>03/21/2022 13:07</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 11:54</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="NewLoadEmail" createDate="03/24/2022 11:53" createBy="SchSOCustLoaderID" updateDate="03/24/2022 11:53" updateBy="SchSOCustLoaderID" internalId="13576065248"><ActivityID/>
+<Summary/>
+<Priority>Normal</Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 11:53</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 11:53</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Import Complete" createDate="03/24/2022 11:53" createBy="SchSOCustLoaderID" updateDate="03/24/2022 11:53" updateBy="SchSOCustLoaderID" internalId="13576065252"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 11:53</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 11:53</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Booking" createDate="03/24/2022 11:56" createBy="fwatlington@woernerholdings.com" updateDate="03/24/2022 12:11" updateBy="fwatlington@woernerholdings.com" internalId="13576070498"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 11:56</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 12:11</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="In Transit" createDate="03/24/2022 12:11" createBy="fwatlington@woernerholdings.com" updateDate="03/24/2022 12:13" updateBy="fwatlington@woernerholdings.com" internalId="13576123130"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 12:11</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 12:13</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Delivered" createDate="03/24/2022 12:13" createBy="fwatlington@woernerholdings.com" updateDate="03/24/2022 12:13" updateBy="fwatlington@woernerholdings.com" internalId="13576130405"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 12:13</PlannedDate>
+<PercentageComplete/>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Add Customer Invoice" createDate="03/24/2022 12:17" createBy="fwatlington@woernerholdings.com" updateDate="03/24/2022 12:17" updateBy="fwatlington@woernerholdings.com" internalId="13576136351"><ActivityID>AddPOD</ActivityID>
+<Summary/>
+<Priority>Normal</Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PlannedDate>03/24/2022 12:17</PlannedDate>
+<PercentageComplete/>
+<CompletedDate>03/24/2022 12:17</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+<Activity type="Accrue Charges" createDate="03/24/2022 14:01" createBy="Schmieding Report Writer" updateDate="04/01/2022 10:01" updateBy="Schmieding Report Writer" internalId="13576443549"><ActivityID/>
+<Summary/>
+<Priority/>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo/>
+<PercentageComplete/>
+<CompletedDate>04/01/2022 10:01</CompletedDate>
+<StatusDetails/>
+<Location/>
+<Contact/>
+<Documents/>
+</Activity>
+</Activities>
+<Links></Links>
+<Margins><Margin type="CurrentMargin" currencyCode="USD"><MarginRevenue>5.00</MarginRevenue>
+<MarginCost>0.00</MarginCost>
+<MarginValue>5.00</MarginValue>
+</Margin>
+<Margin type="InvoiceMargin" currencyCode="USD"><MarginRevenue>5.00</MarginRevenue>
+<MarginCost>0.00</MarginCost>
+<MarginValue>5.00</MarginValue>
+</Margin>
+<Margin type="RateMargin" currencyCode="USD"><MarginRevenue>5.00</MarginRevenue>
+<MarginCost>0.00</MarginCost>
+<MarginValue>5.00</MarginValue>
+</Margin>
+</Margins>
+</MasterBillOfLading>
+</MercuryGate>
