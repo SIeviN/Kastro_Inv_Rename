@@ -20,6 +20,7 @@
 
 
 import argparse, os, ntpath, fnmatch
+from sys import exit
 from pathlib import Path, PureWindowsPath
 
 CUST_ACCT_SEARCH_STR = "Customer Acct Number"
